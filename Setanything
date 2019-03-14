@@ -1,0 +1,48 @@
+#include<iostream>
+#include<stdio.h>
+#include<time.h>
+#include<string>
+#include<string.h>
+#define maxn 105
+
+void muneset() {
+
+}
+
+typedef struct STU {
+	int Student_ID;
+
+};
+
+typedef struct Pnode{
+	STU stu;
+	int *pnext;
+};
+void shenqingneicun() {
+	
+}
+class STU {
+public:
+	void SetStudent_name(char *Student_Name) {
+		Student_Name = Student_name;
+	}
+	char GetStudent_name() {
+		return Student_name[8];
+	}
+	void SetStudent_id(int Student_id) {
+		Student_id = Student_id;
+	}
+	int GetStudent_id() {
+		return Student_id;
+	}
+private: char Student_name[8];
+		 int Student_id;
+};
+
+int main() {
+	STU *s = new STU;
+	s->SetStudent_id = 1;
+	s->SetStudent_name = "name";
+	delete s;
+	return 0;
+}
